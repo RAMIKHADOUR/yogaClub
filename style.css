@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;700&display=swap');
+
+body{
+    font-family:'Baloo Thambi 2',cursive;
+    max-width: 600px;
+    margin: auto;
+
+}
+
+.container {
+    background-image: url("asset/images/yogamat.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+ 
+}
+.menu a{
+   float:right;
+ padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-inline-start: 5px;
+  
+}
+.titre{
+  text-align: center;
+}
+.titre p, h1{
+    color:white;
+   
+}
+h1{
+    font-size: 60px;
+    
+}
+
+.logo{
+   padding: 10px;
+}
+
+
+.but{
+    border:none;
+    border-radius:10px 10px 10px 10px;;
+    background-color: aliceblue;
+    color: rgb(25, 17, 143);
+    font-size: 10px;
+    padding: 5px 5px 5px 5px;
+}
+
+
+.concept1{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 12fr 1fr ;
+    column-gap: 5px;
+}
+
+.mat img{
+    width:20px;
+    height:20px;
+    border-radius: 80%;
+    background-color:rgb(225, 239, 239);
+    padding:15px 15px 15px 15px;
+}
+.concept2{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 6fr ;
+    column-gap: 5px;
+}
+
+.drinklist img{
+    width:20px;
+    height:20px;
+    border-radius: 80%;
+    background-color:rgb(225, 239, 239);
+    padding:15px 15px 15px 15px;
+    float:left;
+}
+
+.concept3{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 12fr 1fr;
+    column-gap: 5px;
+}
+
+.drink  img{
+    width:20px;
+    height:20px;
+    border-radius: 80%;
+    background-color:rgb(225, 239, 239);
+    padding:15px 15px 15px 15px;
+}
+.cours{
+    display:inline-flex; 
+    
+}
+.yoga{
+    width:200px;
+    height:200px;   
+}
+
+.cours1{
+ padding-left: 25px;
+}
+
+.v-line{
+    border-left: thick solid #000;
+    height:2px;
+    left: 2px;
+    position: absolute;
+   }
+
+   .but1 {
+    border:none;
+    border-radius:10px 10px 10px 10px;;
+    background-color: aliceblue;
+    color: rgb(25, 17, 143);
+    font-size: 10px;
+    padding: 5px 5px 5px 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+   }
+   .but1:hover{
+    background-color: seagreen;
+   }
+   .but2 {
+    border:none;
+    border-radius:10px 10px 10px 10px;;
+    background-color: aliceblue;
+    color: rgb(25, 17, 143);
+    font-size: 10px;
+    padding: 5px 5px 5px 5px;
+    margin-right: 20px;
+
+   }
+   .but2:hover{
+    background-color: seagreen;
+   }
+   .but3{
+    border:none;
+    border-radius:10px 10px 10px 10px;;
+    background-color: aliceblue;
+    color: rgb(25, 17, 143);
+    font-size: 12px;
+    padding: 5px 5px 5px 5px;
+   
+   }
+   .but3:hover{
+    background-color: seagreen;}
+   input{
+    border:none;
+    border-radius:20px 20px 20px 20px;;
+    background-color: aliceblue;
+    padding: 10px 10px 10px 10px;
+   }
+   .but4{
+    border:none;
+    border-radius:10px 10px 10px 10px;;
+    background-color: aliceblue;
+    color: rgb(25, 17, 143);
+    font-size: 12px;
+    padding: 5px 5px 5px 5px;
+   }
+  .foot{
+    border:none;
+    background-color: rgba(11, 53, 11, 0.582);
+    height:40px;
+    text-align: center;
+    color:aliceblue;
+    
+   }
+   .top{
+    color:green;
+    
+   }
